@@ -1,3 +1,4 @@
+<!-- svelte-ignore export_let_unused -->
 <!-- Layout for the protected subscriber-only pages -->
 <script lang="ts">
   import type { LayoutData } from "./$types"
