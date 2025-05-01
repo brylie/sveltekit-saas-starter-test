@@ -11,14 +11,14 @@ export const pricingPlans = [
     features: ["MIT Licence", "Fast Performance", "Stripe Integration"],
   },
   {
-    id: "pro",
-    name: "Pro",
+    id: "monthly",
+    name: "Monthly",
     description:
-      "A plan to test the purchase experience. Try buying this with the test credit card 4242424242424242.",
+      "Standard monthly membership. Try buying this with the test credit card 4242424242424242.",
     price: "$5",
     priceIntervalName: "per month",
-    stripe_price_id: "price_1NkdZCHMjzZ8mGZnRSjUm4yA",
-    stripe_product_id: "prod_OXj1CcemGMWOlU",
+    stripe_price_id: "price_1RDiXiIMUCSg0j0skDWw4IBg",
+    stripe_product_id: "prod_S7yURRJSZJHP9d",
     features: [
       "Everything in Free",
       "Support us with fake money",
@@ -26,14 +26,14 @@ export const pricingPlans = [
     ],
   },
   {
-    id: "enterprise",
-    name: "Enterprise",
+    id: "yearly",
+    name: "Yearly",
     description:
-      "A plan to test the upgrade experience. Try buying this with the test credit card 4242424242424242.",
-    price: "$15",
-    priceIntervalName: "per month",
-    stripe_price_id: "price_1Nkda2HMjzZ8mGZn4sKvbDAV",
-    stripe_product_id: "prod_OXj20YNpHYOXi7",
+      "Yearly at a 50% discount. Try buying this with the test credit card 4242424242424242.",
+    price: "$30",
+    priceIntervalName: "per year",
+    stripe_price_id: "price_1RDiabIMUCSg0j0sJ8ciAdWC",
+    stripe_product_id: "prod_S7yURRJSZJHP9d",
     features: [
       "Everything in Pro",
       "Try the 'upgrade plan' UX",
